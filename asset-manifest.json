@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/newsApp/static/js/main.f6e8ac17.js",
+    "index.html": "/newsApp/index.html",
+    "main.f6e8ac17.js.map": "/newsApp/static/js/main.f6e8ac17.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f6e8ac17.js"
+  ]
+}
