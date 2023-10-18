@@ -13,7 +13,7 @@ const App = ()=> {
   
     return (
       <div>
-        <HashRouter>
+        <HashRouter basename='/newsApp'>
           <NavBar/>
           <LoadingBar
             height={3}
