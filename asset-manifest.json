@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/newsApp/static/js/main.bb0516cb.js",
-    "index.html": "/newsApp/index.html",
-    "main.bb0516cb.js.map": "/newsApp/static/js/main.bb0516cb.js.map"
+    "main.js": "/static/js/main.bb0516cb.js",
+    "index.html": "/index.html",
+    "main.bb0516cb.js.map": "/static/js/main.bb0516cb.js.map"
   },
   "entrypoints": [
     "static/js/main.bb0516cb.js"
