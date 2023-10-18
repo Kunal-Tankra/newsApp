@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import NavBar from './components/NavBar';
 import News from './components/News';
-import { BrowserRouter , Routes, Route } from "react-router-dom";
+import {  Routes, Route, HashRouter } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 
 const App = ()=> {
@@ -13,7 +13,7 @@ const App = ()=> {
   
     return (
       <div>
-        <BrowserRouter>
+        <HashRouter>
           <NavBar/>
           <LoadingBar
             height={3}
@@ -32,7 +32,7 @@ const App = ()=> {
               
             
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
         
       </div>
     )
