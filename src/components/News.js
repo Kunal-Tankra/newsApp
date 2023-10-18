@@ -40,9 +40,7 @@ const News = (props)=>{
       // eslint-disable-next-line
     }, []);
    
-const func = ()=>{
-  console.log('click in dom')
-}
+
     const fetchMoreData = async() => {
      
       const url= `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}`
@@ -56,7 +54,6 @@ const func = ()=>{
     
     return (
       <>
-      {func()}
         <h1 className='text-center' style={{margin:'40px 0px', marginTop: '90px'}}>NewsMonkey - Top {capitalizeFirstLetter(props.category)} Headlines  </h1>
         {loading && <Spinner/>}
         <InfiniteScroll
