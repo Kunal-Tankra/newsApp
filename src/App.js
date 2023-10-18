@@ -13,7 +13,7 @@ const App = ()=> {
   
     return (
       <div>
-        <BrowserRouter basename='newsApp'>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <NavBar/>
           <LoadingBar
             height={3}
